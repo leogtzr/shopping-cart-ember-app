@@ -1,0 +1,31 @@
+{{!-- <h1>Number: {{this.number}}</h1>
+<button {{on "click" this.addNumber}}>Add</button>
+ --}}
+<LinkTo @route="item" @model={{@product.id}} class="product">
+    {{!-- <div class="product-image">
+        <img src="/assets/images/beats-solo-red.png" alt="">
+    </div> --}}
+    <Product::Image @src={{this.productImage}} />
+    {{!-- <div class="product-details">
+        <section>
+            <h3>Beats Solo Wireless Headphones</h3>
+            <div class="text-warning">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </section>
+
+        <section>
+            <del class="small text-black-50">$199.95</del>
+            <i class="text-danger font-weight-bold">$99.98</i>
+        </section>
+    </div> --}}
+    <Product::Details 
+        @name={{@product.name}} 
+        @price={{@product.price}}
+        />
+
+</LinkTo>
