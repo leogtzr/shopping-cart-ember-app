@@ -12,5 +12,4 @@ export default class ItemRoute extends Route {
     super.setupController(controller, model);
     controller.color = model.colors[0].color;
   }
-
 }
