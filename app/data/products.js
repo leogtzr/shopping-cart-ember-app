@@ -35,7 +35,7 @@ export const products = [
       'Debuting in 1982, the AF1 was the first basketball shoe to house Nike Air, revolutionizing the game while rapidly gaining traction around the world.',
     price: {
       original: 109.95,
-      current: 69.43,
+      current: 89.98,
     },
     features: [
       'Full-grain leather in the upper adds a premium look and feel.',
